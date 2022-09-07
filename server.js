@@ -1,13 +1,6 @@
-/*
-const { notes } = require('./data/db');
-
-app.get('/api/notes', (req, res) => {
-    res.send('Hello!');
-  });
-*/
-
 // https://desolate-hollows-70629.herokuapp.com/
-  // Require Dependencies
+
+// Require Dependencies
 const express = require("express");
 const fs = require("fs");
 const path = require('path');
